@@ -1,0 +1,87 @@
+
+html{
+font-size: 62.5%;
+}
+
+body{
+    background-color:black;
+    color: #fff;
+    width: 80%;
+    background-size: auto;
+    margin: auto;
+    height: 100vh;
+}
+
+.header{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns:6rem 16rem;
+    grid-template-rows: 8rem;
+    justify-content: center;
+    place-items: center;
+}
+img{
+    margin-left: 1.5rem;
+      width: 75%;
+}
+
+.para{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+textarea{
+    padding: 2rem;
+    width: 96.5%;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: transparent;
+    box-shadow: 0 5px 5px rgb(70, 63, 63);
+    border-color: #fff;
+    margin-top: 4rem;
+}
+button{
+    margin: 5px;
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #fff;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+button:hover{
+    border-color: white;
+    background-color: rgb(18, 18, 215);
+    color: white;
+}
+ .containerInner{
+    font-size: 1.5rem;
+ }
+ .replyContainer {
+    width: 94.5%;
+    position: relative;
+    left: 5%;
+    margin: 5px;  
+}
+
+/* hiding the .addReplyContainer */
+.addReplyContainer {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    html {
+        font-size: 40%;
+    }
+}
