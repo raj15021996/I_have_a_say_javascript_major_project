@@ -32,7 +32,7 @@ function addComment(comment, container) {
                           
                             <div class="replyContainer">
       
-                            <!-- from here we can add replies and everytime when we create a comment it will be hidden(check css .addReplyContainer) and we will make it visible when we click on add reply button. check line no 58 -->
+  <!-- from here we can add replies and everytime when we create a comment it will be hidden(check css .addReplyContainer) and we will make it visible when we click on add reply button. check line no 58 -->
                             <div class="addReplyContainer">   
                               <textarea name="replyText" id="newComment" cols="device-width" rows="2" ></textarea>
                               
